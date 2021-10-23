@@ -4,8 +4,12 @@ import random
 from config import *
 import sys
 
-print(screensize)
+
 pygame.init()
+pozadie = pygame.image.load("asets/images/pozadieTest.png")
+
+print(screensize)
+
 
 screen = pygame.display.set_mode(screensize)
 pygame.display.set_caption("Pygame Test")
@@ -19,7 +23,7 @@ while running == True:
         if event.type == pygame.QUIT:
             running = False
 
-    screen.fill(((32, 32, 32)))
+    screen.blit(pozadie, [0,0])
+   
     pygame.display.update()
 pygame.quit()
-
