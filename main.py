@@ -1,5 +1,4 @@
 import pygame
-from pygame.event import event_name
 import random
 from config import *
 import sys
