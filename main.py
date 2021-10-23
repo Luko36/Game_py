@@ -3,5 +3,4 @@ import random
 from config import *
 import sys
 
-print("ahoj svet")
- 
+print("ahoj svet kokot")
