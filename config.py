@@ -6,4 +6,4 @@ user32.SetProcessDPIAware()
 
 screensize = [user32.GetSystemMetrics(0), user32.GetSystemMetrics(1)]
 
-hovno = kakacik
+hovno = "kakacik"
